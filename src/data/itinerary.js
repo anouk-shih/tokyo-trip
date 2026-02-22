@@ -181,15 +181,51 @@ export const INITIAL_ITINERARY = {
   "2025-03-09": [
     {
       "id": 19,
-      "time": "09:00",
-      "endTime": "10:30",
-      "title": "新幹線：東京 → 仙台",
-      "location": "東京站",
+      "time": "10:30",
+      "endTime": "11:00",
+      "title": "抵達仙台 & SS30 展望台",
+      "location": "仙台站 -> SS30",
       "type": "transport",
-      "notes": "10:30 抵達仙台與朋友會合"
+      "notes": "10:30 抵達仙台站。寄放行李後，步行約 15 分鐘至 Trust City 旁的 SS30 (30F) 看免費風景。"
     },
     {
       "id": 20,
+      "time": "11:00",
+      "endTime": "13:30",
+      "title": "午餐：とりいちず (Toriichizu)",
+      "location": "仙台 Trust City 2F",
+      "type": "meal",
+      "notes": "與朋友聚餐。地址：仙台市青葉區一番町1-9-1。吃完可以直接在 Trust City 附近散步。"
+    },
+    {
+      "id": 21,
+      "time": "13:30",
+      "endTime": "14:30",
+      "title": "商店街散步回車站",
+      "location": "Clis Road / Vlandome",
+      "type": "shopping",
+      "notes": "沿著拱廊商店街散步回仙台站，或是去 Parco 本館 (8F) 的寶可夢中心。"
+    },
+    {
+      "id": 22,
+      "time": "14:30",
+      "endTime": "15:30",
+      "title": "仙台站伴手禮採買",
+      "location": "S-PAL Sendai (B1F/2F)",
+      "type": "shopping",
+      "notes": "最後衝刺買伴手禮 (萩之月、毛豆泥麻糬、牛舌)。15:30 前往月台。"
+    },
+    {
+      "id": 23,
+      "time": "15:30",
+      "endTime": "16:00",
+      "title": "前往仙台機場",
+      "location": "仙台空港Access線",
+      "type": "transport",
+      "notes": "15:30 搭乘電車直達機場 (車程約25分，單程 660 日圓)。"
+    },
+    {
+      "id": 24,
       "time": "17:25",
       "endTime": "18:00",
       "title": "仙台起飛",
